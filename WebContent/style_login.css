@@ -1,0 +1,118 @@
+
+@charset "utf-8";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+body {
+  background: #e6eae3;
+  color: #1f3134;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+  margin: 0;
+  text-align:center;
+  
+}
+
+title {
+  text-align: center;
+}
+
+input {
+  border: none;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 0;
+  -webkit-appearance: none;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+after { clear: both; }
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+#login {
+  margin: 50px auto;
+  width: 320px;
+}
+
+#login form {
+  margin: auto;
+  padding: 22px 22px 22px 22px;
+  width: 100%;
+  border-radius: 5px;
+  background: #888084;
+  border-top: 3px solid #434a52;
+  border-bottom: 3px solid #434a52;
+}
+
+#login form span {
+  background-color: #F08300;
+  border-radius: 3px 0px 0px 3px;
+  border-right: 3px solid #434a52;
+  color: #606468;
+  display: block;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+#login form input[type="text"] {
+  background-color: #e6eae3;
+  border-radius: 0px 3px 3px 0px;
+  color: #1f3134;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 265px;
+  height: 50px;
+}
+
+#login form input[type="password"] {
+  background-color: #e6eae3;
+  border-radius: 0px 3px 3px 0px;
+  color: #1f3134;
+  margin-bottom: 5em;
+  padding: 0 16px;
+  width: 265px;
+  height: 50px;
+}
+
+#login form input[type="submit"] {
+  background: #4682b4;
+  border: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+#login form input[type="reset"] {
+  background: #e6eae3;
+  border: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  color: #1f3134;
+  margin-top: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+p.loginUser {
+	text-align:left;
+}
+
+p.errorMessage {
+	color:red;
+}

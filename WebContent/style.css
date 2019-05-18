@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+	text-align:center;
+}
+
+p.loginUser {
+	text-align:left;
+}
+
+p.errorMessage {
+	color:red;
+}
